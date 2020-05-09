@@ -12,3 +12,12 @@ letters[0].addEventListener(`click`, function(){
     letters[0].style.transform = `rotate(`+deg+`deg)`;
     rotatedA = !rotatedA;
 });
+
+letters[1].addEventListener(`click`, function(){
+    rotatedA = false;
+    rotatedC = false;
+    rotatedD = false;
+    let deg = rotatedB ? 0 : 180;
+    letters[1].style.transform = `rotate(`+deg+`deg)`;
+    rotatedB = !rotatedB;
+});
