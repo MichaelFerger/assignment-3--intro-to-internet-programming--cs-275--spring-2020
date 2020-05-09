@@ -7,4 +7,5 @@ td {
   padding: 1rem 1.2rem;
   border-radius: 6px;
   border: 1px solid #e4460d;
+  transition: all .5s ease-in-out;
 }
