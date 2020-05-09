@@ -21,3 +21,12 @@ letters[1].addEventListener(`click`, function(){
     letters[1].style.transform = `rotate(`+deg+`deg)`;
     rotatedB = !rotatedB;
 });
+
+letters[2].addEventListener(`click`, function(){
+    rotatedA = false;
+    rotatedB = false;
+    rotatedD = false;
+    let deg = rotatedC ? 0 : 180;
+    letters[2].style.transform = `rotate(`+deg+`deg)`;
+    rotatedC = !rotatedC;
+});
