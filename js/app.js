@@ -10,6 +10,9 @@ letters[0].addEventListener(`click`, function(){
     rotatedD = false;
     let deg = rotatedA ? 0 : 180;
     letters[0].style.transform = `rotate(`+deg+`deg)`;
+    letters[1].style.transform = `rotate(0deg)`;
+    letters[2].style.transform = `rotate(0deg)`;
+    letters[3].style.transform = `rotate(0deg)`;
     rotatedA = !rotatedA;
 });
 
